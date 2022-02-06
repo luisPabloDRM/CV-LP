@@ -6,4 +6,5 @@ import More from "./More/More";
 import NavBar from "./NavBar/NavBar";
 
 
+
 export {About, Education, Experience, Me, More, NavBar}
