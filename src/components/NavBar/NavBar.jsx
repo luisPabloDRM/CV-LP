@@ -7,7 +7,12 @@ const Navbar = () => {
         <div className="navbar">
 
              <NavLink to="/">
-               <button>About</button>
+               <button>Home</button>
+            </NavLink>
+
+
+             <NavLink to="/profile">
+               <button>Profile</button>
             </NavLink>
 
 

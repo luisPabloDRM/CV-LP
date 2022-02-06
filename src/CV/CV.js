@@ -11,9 +11,9 @@ export const CV = {
     image: "https://media-exp1.licdn.com/dms/image/C4D03AQG1ah6QXnZuqQ/profile-displayphoto-shrink_200_200/0/1642159068823?e=1648684800&v=beta&t=baWFYeUHIcfJgzq2Ns3vtU5lAyn_HOanySt34hB9DbA",
     GitLab: "https://gitlab.com/luispa23/",
     aboutMe:[
+      
       "🏋🏽‍♂️ Failure doesn't mean the game is over, it means try again with experience.",
-      "pepe",
-      "juan"
+      
 
     ],
   },
@@ -40,14 +40,14 @@ export const CV = {
       date: "07/11/2017 – Nowadays",
       where: "ALDI - Supermercados",
       description:
-        "My job is team management, checking and maintaining stocks, placing orders, warehouse management, and merchandise presentation in the sales room..",
+        "'My job is team management, checking and maintaining stocks, placing orders, warehouse management, and merchandise presentation in the sales room.'",
     },
     {
       name: "Vendedor-Deportista (especialista Baloncesto)",
       date: "15/10/20015 – 15/04/2016",
       where: "Decathlon",
       description:
-        "Attention to the public, stock management, presentation of merchandise, and placing orders to the warehouse",
+        "'Attention to the public, stock management, presentation of merchandise, and placing orders to the warehouse'",
     },
   ],
   languages: {
