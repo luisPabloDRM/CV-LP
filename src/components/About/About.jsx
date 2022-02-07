@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React from "react";
 
 const About = (props) => {

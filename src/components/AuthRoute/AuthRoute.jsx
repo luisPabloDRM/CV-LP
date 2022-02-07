@@ -1,12 +1,13 @@
-import { Navigate } from 'react-router-dom';
+import { useLocation, Navigate } from 'react-router-dom';
 
+const AuthRoute = ({user, component, ...restProps }) => {
+    const location = useLocation();
 
-const AuthRoute = ({user, component, location }) => {
-    if (!component) throw new Error('Necesitas añadir una prop "component" con el siguiente formato <MiComoponente props />');
+    if (!component) throw new Error('Necesitas añadir una prop "component" al componente <AuthRoute component={...} />');
 
     if (user) return component;
 
-    if (!user) return <Navigate to="/login" state={{prevRoute:location.pathname}} />
+    if (!user) return <Navigate to='/login' state={{prevRoute: location.pathname}} />
 };
 
 export default AuthRoute;

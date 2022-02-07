@@ -19,7 +19,7 @@ export const CV = {
   },
   education: [
     {
-      name: "FullStack developer",
+      name: "FullStack developer  <HTML&CSS , JavaScript, Angular, React ,NodeJS , SQL, PHP>",
       date: "2022",
       where: "Upgrade - HUB",
     },

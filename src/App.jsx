@@ -1,16 +1,16 @@
 
-import{ BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React, {useState} from 'react';
-import { useNavigate } from 'react-router-dom';
+import{ Router, Route, Routes, useNavigate } from 'react-router-dom';
+//import { useNavigate } from 'react-router-dom';
 
 
-import "./App.scss";
 import {About , Education , Experience , Me , More, NavBar, }  from "./components";
 import Profile from './components/Profile/Profile';
 import { CV } from "./CV/CV";
 import NotFound from './components/NotFound/NotFound';
 import LoginForm from './components/LoginForm/LoginForm';
 import AuthRoute from './components/AuthRoute/AuthRoute';
+import "./App.scss";
 
 
 const { me} = CV;
@@ -27,7 +27,7 @@ const userMockArray = [
 function App() {
   const navigate = useNavigate();
   const [user, setUser]= useState(null);
-  const authenticated = user != null;
+  //const authenticated = user != null;
   const [loginError, setLoginError]= useState('');
 
  
@@ -56,28 +56,27 @@ function App() {
       
       <Me me={me} />
 
-    <Router>
-    <NavBar user={user} logoutUser={logoutUser}/>
+
+    
+        <NavBar user={user} logoutUser={logoutUser}/>
             <Routes>
                <Route path="/" element={null} /> 
 
-                 <Route path="/education" element={<Education education={CV.education}/>} />
+                  <Route path="/login" element={<LoginForm loginUser={loginUser} loginError={loginError} />} />
+
+                 <Route path="/education" element={<Education education={CV.education}/>  } />
 
                   <Route path="/about" element={<About me ={CV.me.aboutMe}/>} />
 
                   <Route path="/experience" element={<Experience experience={CV.experience}/>} />
 
-                  <Route path="/profile" element={<AuthRoute user={user} component={<Profile propInventada={1234} />} />} />
+                  <Route path="/profile" element={<AuthRoute user={user} component={<Profile user={user} />} />} />
 
                   <Route path="/more" element={<More languages={[CV.languages ]} habilities = {CV.habilities} volunteer = {CV.volunteer} />} />
 
-                  <Route path="/login" element={<LoginForm loginUser={loginUser} loginError={loginError} />} />
-
-
-
                   <Route path ="*" element={<NotFound />} />
             </Routes>
-      </Router>
+    
   </div>
   );
 }

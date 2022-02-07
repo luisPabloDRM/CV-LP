@@ -10,11 +10,12 @@ const Navbar = () => {
                <button>Home</button>
             </NavLink>
 
-
-             <NavLink to="/profile">
-               <button>Profile</button>
+             <NavLink to="/login">
+               <button>Login</button>
             </NavLink>
 
+
+         
 
             <NavLink to="/education">
                 <button>Education</button>
