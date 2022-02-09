@@ -1,6 +1,13 @@
 {
-    "test": "This is an English test",
-    "languageSelector.title" : "Choose your language"
+    
+    "languageSelector.title" : "Choose your language",
+    "Educ": "Education",
+    "login": "Login ",
+    "Home" : "Home",
+    "Exp" : "Experience",
+    "More" : "More",
+    "AboutMe" : "Failure doesn't mean the game is over, it means try again with experience.",
+    "ExpName" : "Deputy Store Manager"
 
 
 }

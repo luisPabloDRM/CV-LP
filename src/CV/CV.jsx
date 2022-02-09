@@ -1,4 +1,4 @@
-
+import { FormattedMessage  as T} from 'react-intl';
 
 export const CV = {
   me: {
@@ -12,14 +12,14 @@ export const CV = {
     GitLab: "https://gitlab.com/luispa23/",
     aboutMe:[
       
-      "🏋🏽‍♂️ Failure doesn't mean the game is over, it means try again with experience.",
+      <T id='AboutMe' /> ,
       
 
     ],
   },
   education: [
     {
-      name: "FullStack developer  <HTML&CSS , JavaScript, Angular, React ,NodeJS , SQL, PHP>",
+      name: "FullStack developer  ",
       date: "2022",
       where: "Upgrade - HUB",
     },
@@ -36,7 +36,7 @@ export const CV = {
   ],
   experience: [
     {
-      name: "Adjunto REsponsable ALDI ",
+      name: <T  id='ExpName' />,
       date: "07/11/2017 – Nowadays",
       where: "ALDI - Supermercados",
       description:
@@ -56,13 +56,7 @@ export const CV = {
     splevel: " Speak Level : B2",
   },
   habilities: [
-     "Computer proficiency.",
-    "Leadership experience.",
-    "Communication skills.",
-    "Organizational know-how",
-    "People skills.",
-    "Collaboration talent",
-    "Problem-solving abilities,"]
+   " HTML&CSS" , "JavaScript" , "Angular ", "React ", "NodeJS ", "SQL ", "PHP"]
   ,
   volunteer: [
     {

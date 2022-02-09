@@ -1,5 +1,13 @@
 {
-    "test": "texto de ejemplo",
-    "languageSelector.title" : "Elige tu idioma"
+    
+    "languageSelector.title" : "Elige tu idioma",
+    "Educ": "Educación",
+    "login": "Inicia Sesión",
+    "Home" : "Inicio",
+    "Exp" : "Experiencia",
+    "More" : "Más",
+    "AboutMe" : "Fallar no significa que el juego se haya terminado, significa volver a intentarlo con experiencia",
+    "ExpName" : "Adjunto Responsable de tienda"
+
 
 }

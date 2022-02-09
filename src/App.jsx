@@ -11,7 +11,7 @@ import NotFound from './components/NotFound/NotFound';
 import LoginForm from './components/LoginForm/LoginForm';
 //import AuthRoute from './components/AuthRoute/AuthRoute';
 import "./App.scss";
-import { FormattedMessage } from 'react-intl';
+
 import LanguageSelector from './components/LanguageSelector/LanguageSelector';
 
 

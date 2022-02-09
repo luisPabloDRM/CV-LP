@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { FormattedMessage  as T} from 'react-intl';
 import "./NavBar.scss";
 
 const Navbar = () => {
@@ -7,11 +8,11 @@ const Navbar = () => {
         <div className="navbar">
 
              <NavLink to="/">
-               <button>Home</button>
+               <button><T id="Home" /></button>
             </NavLink>
 
              <NavLink to="/login">
-               <button>Login</button>
+               <button><T id='login' /> </button>
             </NavLink> 
 
 {/* 
@@ -21,16 +22,16 @@ const Navbar = () => {
  */}
 
             <NavLink to="/education">
-                <button>Education</button>
+                <button><T id='Educ' /> </button>
             </NavLink>
 
             <NavLink to="/experience">
-                <button>Experience</button>
+                <button> <T id='Exp' />  </button>
             </NavLink>
 
 
             <NavLink to="/more">
-                <button>More</button>
+                <button> <T id='More' /> </button>
             </NavLink>
         </div>
     )
