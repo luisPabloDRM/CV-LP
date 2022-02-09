@@ -11,7 +11,9 @@ import {
 
 
 const Me = ( props ) => {
-  const me = props.me || []
+  const me = props.me || [];
+
+  //const name= props.me.name || []
   return (
     <div className="me">
       <img src={me.image} alt="" />

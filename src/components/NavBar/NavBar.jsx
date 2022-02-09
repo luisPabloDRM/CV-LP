@@ -10,15 +10,15 @@ const Navbar = () => {
                <button>Home</button>
             </NavLink>
 
-             {/* <NavLink to="/login">
+             <NavLink to="/login">
                <button>Login</button>
-            </NavLink> */}
+            </NavLink> 
 
-
+{/* 
              <NavLink to="/profile">
                <button>Profile</button>
             </NavLink>
-
+ */}
 
             <NavLink to="/education">
                 <button>Education</button>

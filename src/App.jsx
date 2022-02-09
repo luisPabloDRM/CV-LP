@@ -5,12 +5,13 @@ import{ Route, Routes, useNavigate } from 'react-router-dom';
 
 
 import {About , Education , Experience , Me , More, NavBar, }  from "./components";
-import Profile from './components/Profile/Profile';
+//import Profile from './components/Profile/Profile';
 import { CV } from "./CV/CV";
 import NotFound from './components/NotFound/NotFound';
 import LoginForm from './components/LoginForm/LoginForm';
-import AuthRoute from './components/AuthRoute/AuthRoute';
+//import AuthRoute from './components/AuthRoute/AuthRoute';
 import "./App.scss";
+import { FormattedMessage } from 'react-intl';
 
 
 const { me} = CV;
@@ -53,16 +54,24 @@ function App() {
   return (
 
   <div className="App">
-      
-      <Me me={me} />
+
+          <h1>
+            <FormattedMessage 
+                  id = "test"
+                  defaultMessage={"test por defecto"}
+                />
+          </h1>
+                
+                 <Me me={me} />
+                <NavBar user={user} logoutUser={logoutUser}/>
 
 
-    
-        <NavBar user={user} logoutUser={logoutUser}/>
+
             <Routes>
                <Route path="/" element={null} /> 
 
-                  <Route path="/login" element={<LoginForm loginUser={loginUser} loginError={loginError} />} />
+
+                 <Route path="/login" element={<LoginForm loginUser={loginUser} loginError={loginError} />} /> 
 
                  <Route path="/education" element={<Education education={CV.education}/>  } />
 
@@ -70,7 +79,7 @@ function App() {
 
                   <Route path="/experience" element={<Experience experience={CV.experience}/>} />
 
-                  <Route path="/profile" element={<AuthRoute user={user} component={<Profile user={user} />} />} />
+                  {/* <Route path="/profile" element={<AuthRoute user={user} component={<Profile user={user} />} />} /> */}
 
                   <Route path="/more" element={<More languages={[CV.languages ]} habilities = {CV.habilities} volunteer = {CV.volunteer} />} />
 
