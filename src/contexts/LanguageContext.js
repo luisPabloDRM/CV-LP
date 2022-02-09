@@ -6,8 +6,8 @@ import React, {useState} from "react";
 export const LanguageContext = createContext();
 
 
-const navigatorLocale = "en"
-//const navigatorLocale = navigator.languages[1];
+//const navigatorLocale = "en"
+const navigatorLocale = navigator.language.split('-')[0];
 
 
 const getMessages = (locale)=> {
@@ -28,12 +28,13 @@ const LanguageWrapper = (props)=> {
             setMessages(getMessages(newLanguageLocale))
     };
 
-    return ( 
-        <LanguageContext.Provider value={{ locale, changeLanguage}}>
-            <IntlProvider locale={locale} messages= {messages}>
+    return (
+        <LanguageContext.Provider value={{ locale, changeLanguage }}>
+            <IntlProvider locale={locale} messages={messages}>
                 {props.children}
             </IntlProvider>
         </LanguageContext.Provider>
     )
 }
+
 export default LanguageWrapper;

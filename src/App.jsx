@@ -12,6 +12,7 @@ import LoginForm from './components/LoginForm/LoginForm';
 //import AuthRoute from './components/AuthRoute/AuthRoute';
 import "./App.scss";
 import { FormattedMessage } from 'react-intl';
+import LanguageSelector from './components/LanguageSelector/LanguageSelector';
 
 
 const { me} = CV;
@@ -54,16 +55,11 @@ function App() {
   return (
 
   <div className="App">
-
-          <h1>
-            <FormattedMessage 
-                  id = "test"
-                  defaultMessage={"test por defecto"}
-                />
-          </h1>
+          <LanguageSelector />
+          
                 
-                 <Me me={me} />
-                <NavBar user={user} logoutUser={logoutUser}/>
+          <Me me={me} />
+          <NavBar user={user} logoutUser={logoutUser}/>
 
 
 

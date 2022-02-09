@@ -1,3 +1,6 @@
 {
-    "test": "This is an English test"
+    "test": "This is an English test",
+    "languageSelector.title" : "Choose your language"
+
+
 }

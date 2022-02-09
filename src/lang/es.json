@@ -1,3 +1,5 @@
 {
-    "test": "texto de ejemplo"
+    "test": "texto de ejemplo",
+    "languageSelector.title" : "Elige tu idioma"
+
 }
