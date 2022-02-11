@@ -21,8 +21,8 @@
 }
 
 .inABox{
-  border: 5px ridge rgba(32, 34, 36, 0.44);
-  border-radius: 22px;
+  border-bottom :5px ridge rgba(32, 34, 36, 0.44);
+ 
 }
 img {
   width: 150px;
@@ -68,7 +68,7 @@ p {
 }
 button {
   font-family: Arial;
-  color: gray;
+  color: rgb(48, 46, 46);
   font-size: 20px;
   padding: 9px;
   text-decoration: none;
