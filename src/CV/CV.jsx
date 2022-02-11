@@ -36,34 +36,40 @@ export const CV = {
   ],
   experience: [
     {
-      name: <T  id='ExpName' />,
-      date: "07/11/2017 – Nowadays",
+      name: <T id='ExpName' />,
+      date:  <T  id= 'Now' />  ,
       where: "ALDI - Supermercados",
-      description:
-        "'My job is team management, checking and maintaining stocks, placing orders, warehouse management, and merchandise presentation in the sales room.'",
+      description: <T id='DesAld' />
+       
     },
     {
-      name: "Vendedor-Deportista (especialista Baloncesto)",
-      date: "15/10/20015 – 15/04/2016",
+      name: <T id='DecJob' />,
+      date: "15/10/2015 – 15/04/2016",
       where: "Decathlon",
       description:
-        "'Attention to the public, stock management, presentation of merchandise, and placing orders to the warehouse'",
+       <T id='DesDec' />,
+    },
+    {
+      name: <T id='Gym' />,
+      date: "20/06/2008 – 01/04/2013",
+      where: "CDOM La Almendrera",
+      description:
+       <T id='GymDesc' />,
     },
   ],
   languages: {
-    language: " Language : English",
-    wrlevel: " Write Level : B2",
-    splevel: " Speak Level : B2",
+    language: <T id='ln' />,
+    wrlevel:  <T id='Wr' /> ,
+    splevel: <T id='Sp' />,
   },
   habilities: [
    " HTML&CSS" , "JavaScript" , "Angular ", "React ", "NodeJS ", "SQL ", "PHP"]
   ,
   volunteer: [
     {
-      name: "Envejecimiento Activo",
+      name: <T id='Pro' />,
       where: "Caja España / Pandora Producciones",
-      description:
-        "In this project, what we tried was to provide the elderly with a series of physical activity resources, whether working on strength, mobility, as well as the social factor, inherent in physical activity."
+      description: <T id='DesPro' />
         
     },
     

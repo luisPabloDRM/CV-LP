@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage  as T} from 'react-intl';
 
 const More = (props) => {
   const languages = props.languages || []
@@ -18,7 +19,7 @@ const More = (props) => {
         })}
   
   <div className="inABox"> 
-  <h2>Skills</h2>
+  <h2> <T id='skills' /> </h2>
     {habilities.map((item) => {
           return (
             

@@ -11,15 +11,8 @@ const Navbar = () => {
                <button><T id="Home" /></button>
             </NavLink>
 
-             <NavLink to="/login">
-               <button><T id='login' /> </button>
-            </NavLink> 
 
-{/* 
-             <NavLink to="/profile">
-               <button>Profile</button>
-            </NavLink>
- */}
+
 
             <NavLink to="/education">
                 <button><T id='Educ' /> </button>

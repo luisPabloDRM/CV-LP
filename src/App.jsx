@@ -1,15 +1,15 @@
 
-import React, {useState} from 'react';
-import{ Route, Routes, useNavigate } from 'react-router-dom';
-//import { useNavigate } from 'react-router-dom';
+import React  from 'react';
+import{ Route, Routes } from 'react-router-dom';
+
 
 
 import {About , Education , Experience , Me , More, NavBar, }  from "./components";
-//import Profile from './components/Profile/Profile';
+
 import { CV } from "./CV/CV";
 import NotFound from './components/NotFound/NotFound';
-import LoginForm from './components/LoginForm/LoginForm';
-//import AuthRoute from './components/AuthRoute/AuthRoute';
+
+
 import "./App.scss";
 
 import LanguageSelector from './components/LanguageSelector/LanguageSelector';
@@ -17,57 +17,28 @@ import LanguageSelector from './components/LanguageSelector/LanguageSelector';
 
 const { me} = CV;
 
-const userMockArray = [
-  {email: 'alumno@upgrade.com', password: '12345', name: 'Alumno'},
-  {email: 'luis.pablo@upgrade.com', password: '12345', name: 'Luis Pablo'},
-  {email: 'alberto@upgrade.com', password: '13245', name: 'Alberto'},
-];
-
 
 
 
 function App() {
-  const navigate = useNavigate();
-  const [user, setUser]= useState(null);
-  //const authenticated = user != null;
-  const [loginError, setLoginError]= useState('');
+ 
 
  
-  const loginUser = (formData, prevRoute) => {
-      const existsUser = userMockArray.find(el => el.password ===formData.password && el.email=== formData.email);
-
-      if (existsUser) {
-          setUser(existsUser);
-          setLoginError('');
-          navigate(prevRoute ||'/');
-      }else{
-          setUser (false);
-          setLoginError('No existe el usuario o la contraseña no coincide');
-      }
-  };
-
-  const logoutUser =()=> {
-      setUser(null);
-  };
-
+  
 
 
   return (
 
   <div className="App">
           <LanguageSelector />
-          
-                
+
           <Me me={me} />
-          <NavBar user={user} logoutUser={logoutUser}/>
+          <NavBar />
 
 
 
             <Routes>
                <Route path="/" element={null} /> 
-
-
-                 <Route path="/login" element={<LoginForm loginUser={loginUser} loginError={loginError} />} /> 
 
                  <Route path="/education" element={<Education education={CV.education}/>  } />
 
