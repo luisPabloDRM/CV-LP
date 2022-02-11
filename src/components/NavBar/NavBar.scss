@@ -16,3 +16,9 @@ button {
         color: rgb(48, 46, 46);}
 
 
+        @media (max-width: 483px) {
+            button{
+                font-size: 15px;
+            }
+
+        }
