@@ -66,22 +66,10 @@ p {
   text-transform: none;
   
 }
-button {
-  font-family: Arial;
-  color: rgb(48, 46, 46);
-  font-size: 20px;
-  padding: 9px;
-  text-decoration: none;
-  border-radius: 10px;
-  box-shadow: 0px 1px 3px #666666;
-  border: solid #0a0a0a 2px;
- 
-}
-.button:hover {
- cursor: pointer;
-}
 
 select{
+  
+
   font-family: Arial;
   color: gray;
   font-size: 15px;
@@ -90,6 +78,7 @@ select{
   border-radius: 10px;
   box-shadow: 0px 1px 3px #666666;
   border: solid #0a0a0a 2px;
+
 }
 option{
   font-family: Arial;

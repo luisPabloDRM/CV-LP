@@ -1,3 +1,18 @@
-button {
+
+button { 
     margin: 10px;
-}
+    font-family: Arial;
+    color: rgb(48, 46, 46);
+    font-size: 20px;
+    padding: 9px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px #666666;
+    border: solid #0a0a0a 2px;
+ }
+
+ button:focus, .btn:hover {
+        background-color:rgb(179, 103, 162) ;
+        color: rgb(48, 46, 46);}
+
+

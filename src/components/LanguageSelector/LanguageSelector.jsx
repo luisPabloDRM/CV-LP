@@ -2,7 +2,8 @@ import { useContext } from "react";
 import { FormattedMessage } from "react-intl";
 import { LanguageContext } from "../../contexts/LanguageContext";
 
-const LanguageSelector = () => {
+const LanguageSelector = (props) => {
+    
     const {locale, changeLanguage} = useContext(LanguageContext);
 
     return (
