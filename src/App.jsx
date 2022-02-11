@@ -30,8 +30,8 @@ function App() {
   return (
 
   <div className="App">
-          <LanguageSelector />
 
+          <LanguageSelector />
           <Me me={me} />
           <NavBar />
 
