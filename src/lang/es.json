@@ -19,6 +19,11 @@
     "Wr": "Nivel escritura 'B2'",
     "Sp": "Nivel hablado 'B2'",
     "ln": "Idiomas Inglés",
-    "skills": "Habilidades"
+    "skills": "Habilidades",
+    "port.desc1":"Éste fue mi primer proyecto, una app con Javascript, en la que ataco la famosa API de Rick y Morty u juego con los datos.",
+    "port.desc2":"Este proyecto fue el primero que hice con alguien, una buena experiencia para comprender el funcionamiento aparte de Angular, de Git, una herramienta fundamental en el ámbito profesional. Hicimos de manera superficial un eccomerce, trabajando con una API de videojuegos. ",
+    "port.desc3":"Sencilla app, mi primera de React, ataco una Api básica de Baloncesto y juego con los datos",
+    "port.desc4":"App sin terminar ( muchisimas cosas que agregar) en la que con un Api en formato Json, hago un clon de Itunes, con preview de de los tracks que estan a la venta, esta app tiene registro y login de usuario con su ruta privada mediante Redux.",
+    "port.desc5":"Este es el proyecto final, del que estoy muy orgulloso. Fuimos 3 compañeros y yo los que estuvimos muchas horas trabajando en él. Frontend hecho con React ( con Redux ) y backend a traves de Node, trabajando con una Api hecha por nosotros."
 
 }

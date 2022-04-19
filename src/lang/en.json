@@ -19,7 +19,12 @@
     "Wr": "Write Level",
     "Sp": "Speak level",
     "ln": "Languages : English",
-    "skills": "Skills"
+    "skills": "Skills",
+    "port.desc1":"This was my first project, an app with Javascript, in which I attack the famous Rick and Morty API and play with the data.",
+    "port.desc2":"This project was the first I did with someone, a good experience to understand how it works apart from Angular, from Git, a fundamental tool in the professional field. We made an ecommerce superficially, working with a video game API.",
+    "port.desc3":"Simple app, my first from React, I attack a basic Basketball API and play with the data",
+    "port.desc4":"Unfinished app (many things to add) in which with an Api in Json format, I make a clone of Itunes, with a preview of the tracks that are for sale, this app has user registration and login with its private route through Redux.",
+    "port.desc5":"This is the final project, which I am very proud of. We were 3 colleagues and I who spent many hours working on it. Frontend made with React (with Redux) and backend through Node, working with an Api made by us."
 
 
 

@@ -8,7 +8,7 @@ export const CV = {
     email: "lp.delriom@gmail.com",
     birthDate: "20/07/1985",
     phone: "(+34) 685148169",
-    image: "https://media-exp1.licdn.com/dms/image/C4D03AQG1ah6QXnZuqQ/profile-displayphoto-shrink_200_200/0/1642159068823?e=1648684800&v=beta&t=baWFYeUHIcfJgzq2Ns3vtU5lAyn_HOanySt34hB9DbA",
+    image: "https://media-exp1.licdn.com/dms/image/C4D03AQG1ah6QXnZuqQ/profile-displayphoto-shrink_200_200/0/1642159068823?e=1655942400&v=beta&t=AW-Zgh4dJia27QMnaFmUT8qCAjr-VSly3b8lhN84MKE",
     GitLab: "https://gitlab.com/luispa23/",
     aboutMe:[
       
@@ -33,6 +33,34 @@ export const CV = {
       date: "2008-2012",
       where: "Universidad de Valladolid",
     },
+  ],
+  portfolio:[
+    {
+      image:"https://media.discordapp.net/attachments/965645891820212318/965648489394602024/Js_-Rick_And_Morty.png?width=923&height=277",
+      tech:"JavaScript",
+      description:< T id='port.desc1'/>
+    },
+    {
+      image:"https://media.discordapp.net/attachments/965645891820212318/965648489080037527/Angular_FreeGames.png?width=923&height=492",
+      tech:"Angular",
+      description:< T id='port.desc2'/>
+    },
+    {
+      image:"https://media.discordapp.net/attachments/965645891820212318/965648488358621254/React_Nba_Api.png",
+      tech:"React",
+      description:< T id='port.desc3'/>
+    },
+    {
+      image:"https://media.discordapp.net/attachments/965645891820212318/965648489583374406/React_ItunesClone.png?width=923&height=506",
+      tech:"React",
+      description:< T id='port.desc4'/>
+    },
+    {
+      image:"https://media.discordapp.net/attachments/965645891820212318/965648488740306954/React_Zarando.png?width=923&height=493",
+      tech:"React",
+      description:< T id='port.desc5'/>
+    }
+
   ],
   experience: [
     {
