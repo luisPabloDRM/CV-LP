@@ -8,8 +8,8 @@ const PortFolio = (props) => {
             return (
                 <div >
                      <div className='card'key={JSON.stringify(item)} >
-                    <div className='imgPort' >
-                       <img src={item.image} alt="Img" /> 
+                    <div  >
+                       <img  src={item.image} alt="Img" /> 
                     </div>
                     <p className='name' > {item.tech}</p>
                     <p className='name' > {item.description}</p>

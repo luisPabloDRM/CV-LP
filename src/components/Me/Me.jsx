@@ -3,7 +3,8 @@ import "./Me.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMobile, faCalendar, faMapMarkedAlt} from '@fortawesome/free-solid-svg-icons';
 import {
-  faGitlab,
+  faGithub,
+  
 } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -30,8 +31,8 @@ const Me = ( props ) => {
           </a>
         </p>
         <p><FontAwesomeIcon icon={faMobile} /> {me.phone}</p>
-        <p> <FontAwesomeIcon icon={faGitlab} /><a href={me.GitLab}>
-            GitLab
+        <p> <FontAwesomeIcon icon={faGithub} /><a href={me.GitLab}>
+            GitHub
           </a></p>
         <p>  {me.aboutMe}</p>
       </div>
