@@ -31,7 +31,7 @@ const Me = ( props ) => {
           </a>
         </p>
         <p><FontAwesomeIcon icon={faMobile} /> {me.phone}</p>
-        <p> <FontAwesomeIcon icon={faGithub} /><a href={me.GitLab}>
+        <p> <FontAwesomeIcon icon={faGithub} /><a href={me.GitHub}>
             GitHub
           </a></p>
         <p>  {me.aboutMe}</p>
