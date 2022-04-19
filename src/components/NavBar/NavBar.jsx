@@ -26,6 +26,10 @@ const Navbar = () => {
             <NavLink to="/more">
                 <button> <T id='More' /> </button>
             </NavLink>
+
+            <NavLink to="/portfolio">
+                <button> <T id='porfoliobut' /> </button>
+            </NavLink>
         </div>
     )
 }

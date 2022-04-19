@@ -9,7 +9,8 @@ import {
   More,
   NavBar,
   Header,
-  Footer
+  Footer,
+  PortFolio
 } from "./components";
 
 import { CV } from "./CV/CV";
@@ -36,6 +37,8 @@ function App() {
         />
 
         <Route path="/about" element={<About me={CV.me.aboutMe} />} />
+
+        <Route path="/portfolio" element={ < PortFolio portFolio ={CV.portfolio}/>} />
 
         <Route
           path="/experience"
