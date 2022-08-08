@@ -8,7 +8,7 @@ export const CV = {
     email: "lp.delriom@gmail.com",
     birthDate: "20/07/1985",
     phone: "(+34) 685148169",
-    image: "https://media-exp1.licdn.com/dms/image/C4D03AQG1ah6QXnZuqQ/profile-displayphoto-shrink_200_200/0/1642159068823?e=1655942400&v=beta&t=AW-Zgh4dJia27QMnaFmUT8qCAjr-VSly3b8lhN84MKE",
+    image: "https://media-exp1.licdn.com/dms/image/C4D03AQG1ah6QXnZuqQ/profile-displayphoto-shrink_800_800/0/1642159068823?e=1665619200&v=beta&t=aaR5kaZA7pSdjNb-qwaSpzdvzuOZyHdzwEO9nYxfwUo",
     GitHub: "https://github.com/luisPabloDRM",
     aboutMe:[
       
